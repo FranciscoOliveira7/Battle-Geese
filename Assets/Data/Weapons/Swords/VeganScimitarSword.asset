@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85e2b07c612ac0b438c560b168b17e15, type: 3}
+  m_Name: VeganScimitarSword
+  m_EditorClassIdentifier: 
+  <Name>k__BackingField: Vegan Scimitar
+  Description: 'A really Positive guys'' lost his Arm and it turned into a sharp
+    blade. How is it still alive.
+
+    <color=red>-</color> Damage
+
+    <color=red>-</color>
+    Range
+
+    <color=green>+</color> Attack Speed'
+  <AnimatorController>k__BackingField: {fileID: 9100000, guid: 4d3640adc4e82a14487efd56275659e8,
+    type: 2}
+  <WeaponSprite>k__BackingField: {fileID: 21300000, guid: 6afbe8a75948ca6428e0ef69276c3119,
+    type: 3}
+  <WeaponPrefab>k__BackingField: {fileID: 7382557863142792377, guid: 77b5aaa247614e34aaa93d154c2c37f6,
+    type: 3}
+  <ComponentDatas>k__BackingField:
+  - rid: 8663771412428488709
+  - rid: 8663771420253487104
+  - rid: 8663771529497280513
+  - rid: 5048026687793528836
+  - rid: 3635312283792703490
+  references:
+    version: 2
+    RefIds:
+    - rid: 3635312283792703490
+      type: {class: SoundEffectData, ns: , asm: Assembly-CSharp}
+      data:
+        <AttackData>k__BackingField:
+          isSoundLooping: 0
+          SoundVolume: 0
+          SoundPitch: 1
+          HitSoundClip: {fileID: 8300000, guid: 0871fc2d833019849870156887b76a69,
+            type: 3}
+          SoundVolume2: 0
+          SoundPitch2: 1
+          HitSoundClip2: {fileID: 0}
+    - rid: 5048026687793528836
+      type: {class: KnockbackComponentData, ns: , asm: Assembly-CSharp}
+      data:
+        <AttackData>k__BackingField:
+          <Amount>k__BackingField: 1
+    - rid: 8663771412428488709
+      type: {class: ActionHitboxData, ns: , asm: Assembly-CSharp}
+      data:
+        <AttackData>k__BackingField:
+          Debug: 1
+          <Hitbox>k__BackingField:
+            serializedVersion: 2
+            x: -0.12
+            y: -0.58
+            width: 1.27
+            height: 1.15
+        <DetectableLayers>k__BackingField:
+          serializedVersion: 2
+          m_Bits: 1280
+    - rid: 8663771420253487104
+      type: {class: DamageData, ns: , asm: Assembly-CSharp}
+      data:
+        <AttackData>k__BackingField:
+          <Amount>k__BackingField: 5
+    - rid: 8663771529497280513
+      type: {class: EffectData, ns: , asm: Assembly-CSharp}
+      data:
+        <AttackData>k__BackingField:
+          EffectObject: {fileID: 7555915200910795179, guid: 4a26c39e0a5f2aa41abf08803029be72,
+            type: 3}
+          shouldFlip: 0

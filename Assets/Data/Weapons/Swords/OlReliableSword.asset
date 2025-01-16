@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85e2b07c612ac0b438c560b168b17e15, type: 3}
+  m_Name: OlReliableSword
+  m_EditorClassIdentifier: 
+  <Name>k__BackingField: The OL' Reliable
+  Description: 'A regular rusty sword. It has nothing special. It almost falls you
+    wings grasp.
+
+    <color=yellow>/</color> Damage
+
+    <color=yellow>/</color>
+    Range
+
+    <color=yellow>/</color> Attack Speed'
+  <AnimatorController>k__BackingField: {fileID: 9100000, guid: 6d32553471cd4cd468bf45cb940f88e6,
+    type: 2}
+  <WeaponSprite>k__BackingField: {fileID: 21300000, guid: c7d7a4558347e8b438ddc2db0b7e98a9,
+    type: 3}
+  <WeaponPrefab>k__BackingField: {fileID: 4230008841929779273, guid: 55b7544152f795d49829e1c241529c6f,
+    type: 3}
+  <ComponentDatas>k__BackingField:
+  - rid: 8663771412428488709
+  - rid: 8663771420253487104
+  - rid: 8663771529497280513
+  - rid: 7667425705334669312
+  - rid: 3635312283792703488
+  references:
+    version: 2
+    RefIds:
+    - rid: 3635312283792703488
+      type: {class: SoundEffectData, ns: , asm: Assembly-CSharp}
+      data:
+        <AttackData>k__BackingField:
+          isSoundLooping: 0
+          SoundVolume: 0.4
+          SoundPitch: 1
+          HitSoundClip: {fileID: 8300000, guid: 0871fc2d833019849870156887b76a69,
+            type: 3}
+          SoundVolume2: 0
+          SoundPitch2: 1
+          HitSoundClip2: {fileID: 0}
+    - rid: 7667425705334669312
+      type: {class: KnockbackComponentData, ns: , asm: Assembly-CSharp}
+      data:
+        <AttackData>k__BackingField:
+          <Amount>k__BackingField: 2
+    - rid: 8663771412428488709
+      type: {class: ActionHitboxData, ns: , asm: Assembly-CSharp}
+      data:
+        <AttackData>k__BackingField:
+          Debug: 1
+          <Hitbox>k__BackingField:
+            serializedVersion: 2
+            x: -0.15
+            y: -0.58
+            width: 1.3
+            height: 1.15
+        <DetectableLayers>k__BackingField:
+          serializedVersion: 2
+          m_Bits: 1280
+    - rid: 8663771420253487104
+      type: {class: DamageData, ns: , asm: Assembly-CSharp}
+      data:
+        <AttackData>k__BackingField:
+          <Amount>k__BackingField: 8
+    - rid: 8663771529497280513
+      type: {class: EffectData, ns: , asm: Assembly-CSharp}
+      data:
+        <AttackData>k__BackingField:
+          EffectObject: {fileID: 7555915200910795179, guid: 4a26c39e0a5f2aa41abf08803029be72,
+            type: 3}
+          shouldFlip: 0

@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85e2b07c612ac0b438c560b168b17e15, type: 3}
+  m_Name: SteelCrossbow
+  m_EditorClassIdentifier: 
+  <Name>k__BackingField: SteelCrossbow
+  Description: 'Even though it can shoot one arrow at once, it is so strong that
+    it <color=#a52a2aff>Pierces</color> through the enemy.
+
+    <color=green>+</color>
+    Damage
+
+    <color=red>-</color> Fire Rate
+
+    <color=#2c76b4>Max Ammo: 1</color>'
+  <AnimatorController>k__BackingField: {fileID: 9100000, guid: 9aa8c651014f0a04faa779d7dd4ead9b,
+    type: 2}
+  <WeaponSprite>k__BackingField: {fileID: 21300000, guid: cf501d4219c524f48866b19a1419d780,
+    type: 3}
+  <WeaponPrefab>k__BackingField: {fileID: 4230008841929779273, guid: f6089143c34b10a45b39c636b895ca2f,
+    type: 3}
+  <ComponentDatas>k__BackingField:
+  - rid: 8663771510183297037
+  - rid: 5048026515087294464
+  - rid: 8663771554814361600
+  - rid: 7169934373258264576
+  references:
+    version: 2
+    RefIds:
+    - rid: 5048026515087294464
+      type: {class: ChargeStatusData, ns: , asm: Assembly-CSharp}
+      data: 
+    - rid: 7169934373258264576
+      type: {class: SoundEffectData, ns: , asm: Assembly-CSharp}
+      data:
+        <AttackData>k__BackingField:
+          isSoundLooping: 0
+          SoundVolume: 1
+          SoundPitch: 1
+          HitSoundClip: {fileID: 8300000, guid: d2962616437926949947f9eedb04c3ed,
+            type: 3}
+          SoundVolume2: 1
+          SoundPitch2: 1
+          HitSoundClip2: {fileID: 8300000, guid: dad680387567b3f49baecafe06d08704,
+            type: 3}
+    - rid: 8663771510183297037
+      type: {class: InputHoldData, ns: , asm: Assembly-CSharp}
+      data: 
+    - rid: 8663771554814361600
+      type: {class: ProjectileSpawnerData, ns: , asm: Assembly-CSharp}
+      data:
+        <AttackData>k__BackingField:
+          <Projectile>k__BackingField: {fileID: 6360016598369960540, guid: edf5c411f229ff342b54cc3200343b57,
+            type: 3}
+        <Speed>k__BackingField: 9
+        <Damage>k__BackingField: 10
+        <DetectableLayers>k__BackingField:
+          serializedVersion: 2
+          m_Bits: 1280

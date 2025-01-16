@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f355a80eb574b214d94edae8a5f39b44, type: 3}
+  m_Name: Player
+  m_EditorClassIdentifier: 
+  <BaseSpeed>k__BackingField: 3
+  <MoveAcceleration>k__BackingField: 18
+  <AttackingMovingSpeedMultiplier>k__BackingField: 0.6
+  <DashSpeedMultiplier>k__BackingField: 2
+  <DashDuration>k__BackingField: 0.4
+  <DashCooldown>k__BackingField: 0.6
+  <StunDuration>k__BackingField: 0.4
+  <RevivingSpeedMultiplier>k__BackingField: 0.1
+  <FlashMaterial>k__BackingField: {fileID: 2100000, guid: 3dcca0a3c55d1a842b1aeca57b174e51,
+    type: 2}

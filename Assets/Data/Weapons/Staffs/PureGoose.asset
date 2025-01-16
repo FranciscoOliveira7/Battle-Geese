@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85e2b07c612ac0b438c560b168b17e15, type: 3}
+  m_Name: PureGoose
+  m_EditorClassIdentifier: 
+  <Name>k__BackingField: Pure Goose
+  Description: 'It resonates with you. You cant avoid but feel closure holding it.
+    You want to protects it, and it will protect <color=#add8e6ff>YOU</color>.
+
+    <color=red>--</color>
+    Damage
+
+    <color=green>+</color> Reload Speed
+
+    <color=#2c76b4>Max Ammo:
+    40</color>'
+  <AnimatorController>k__BackingField: {fileID: 9100000, guid: e871b9ed773c4914ca7e450b225611db,
+    type: 2}
+  <WeaponSprite>k__BackingField: {fileID: 21300000, guid: 8018ca331fe500b40bd0625c0976c07c,
+    type: 3}
+  <WeaponPrefab>k__BackingField: {fileID: 7382557863142792377, guid: 4fdb20524bd5f224fa6a5464ee8a56ea,
+    type: 3}
+  <ComponentDatas>k__BackingField:
+  - rid: 8663771510183297037
+  - rid: 8663771554814361600
+  - rid: 5890545789999775773
+  references:
+    version: 2
+    RefIds:
+    - rid: 5890545789999775773
+      type: {class: HammoData, ns: , asm: Assembly-CSharp}
+      data:
+        <AttackData>k__BackingField:
+          <MaxHammo>k__BackingField: 40
+          <TimeToRegen1>k__BackingField: 0.5
+    - rid: 8663771510183297037
+      type: {class: InputHoldData, ns: , asm: Assembly-CSharp}
+      data: 
+    - rid: 8663771554814361600
+      type: {class: ProjectileSpawnerData, ns: , asm: Assembly-CSharp}
+      data:
+        <AttackData>k__BackingField:
+          <Projectile>k__BackingField: {fileID: 6360016598369960540, guid: 6b93cfe395383094e97ebc375af431e9,
+            type: 3}
+        <Speed>k__BackingField: 8
+        <Damage>k__BackingField: 1
+        <DetectableLayers>k__BackingField:
+          serializedVersion: 2
+          m_Bits: 1280

@@ -1,0 +1,400 @@
+fileFormatVersion: 2
+guid: ce3c1ba1e05bf974fa07b3b1cbbcde35
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 200
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: carroto-shoot-ezgif.com-gif-to-sprite-converter_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 686
+        width: 587
+        height: 343
+      alignment: 9
+      pivot: {x: 0.5153354, y: 0.37402648}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c3056d8721c07542971c02a5223b72c
+      internalID: -438560093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carroto-shoot-ezgif.com-gif-to-sprite-converter_1
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 686
+        width: 587
+        height: 343
+      alignment: 9
+      pivot: {x: 0.515476, y: 0.3796125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60329f2dd9794934c8801e2d0b6a5f99
+      internalID: -2063293105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carroto-shoot-ezgif.com-gif-to-sprite-converter_2
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 686
+        width: 587
+        height: 343
+      alignment: 9
+      pivot: {x: 0.51688296, y: 0.37720475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5725f714d61975842b2b85503854730d
+      internalID: 273156805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carroto-shoot-ezgif.com-gif-to-sprite-converter_3
+      rect:
+        serializedVersion: 2
+        x: 1761
+        y: 686
+        width: 587
+        height: 343
+      alignment: 9
+      pivot: {x: 0.5154761, y: 0.3796125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24ff70f22bcf7f947843544f22c6bda9
+      internalID: -446027103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carroto-shoot-ezgif.com-gif-to-sprite-converter_4
+      rect:
+        serializedVersion: 2
+        x: 2348
+        y: 686
+        width: 587
+        height: 343
+      alignment: 9
+      pivot: {x: 0.51688313, y: 0.3820203}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98436fc6f1e94e14b8b026be0671d571
+      internalID: 1439988021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carroto-shoot-ezgif.com-gif-to-sprite-converter_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 343
+        width: 587
+        height: 343
+      alignment: 9
+      pivot: {x: 0.5154761, y: 0.38683575}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e022b118b3538b34f9238aa29653ab68
+      internalID: -1715483433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carroto-shoot-ezgif.com-gif-to-sprite-converter_6
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 343
+        width: 587
+        height: 343
+      alignment: 9
+      pivot: {x: 0.515476, y: 0.3820203}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39e94c8afe4d757438e4cdce2e899ef0
+      internalID: 1099221277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carroto-shoot-ezgif.com-gif-to-sprite-converter_7
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 343
+        width: 587
+        height: 343
+      alignment: 9
+      pivot: {x: 0.5154761, y: 0.38683575}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe6435f63617c634690c59b8361ef7e8
+      internalID: -1479667139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carroto-shoot-ezgif.com-gif-to-sprite-converter_8
+      rect:
+        serializedVersion: 2
+        x: 1761
+        y: 343
+        width: 587
+        height: 343
+      alignment: 9
+      pivot: {x: 0.5154761, y: 0.37720484}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 300347122a96d084c97fdb6a55315a7e
+      internalID: 630294636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carroto-shoot-ezgif.com-gif-to-sprite-converter_9
+      rect:
+        serializedVersion: 2
+        x: 2348
+        y: 343
+        width: 587
+        height: 343
+      alignment: 9
+      pivot: {x: 0.5154761, y: 0.3796125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65557b0cd334bfd429f7762176bd21f6
+      internalID: -1943065866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carroto-shoot-ezgif.com-gif-to-sprite-converter_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 587
+        height: 343
+      alignment: 9
+      pivot: {x: 0.5140691, y: 0.40128222}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7391e77b9e9edff49947574640731f99
+      internalID: -564175421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carroto-shoot-ezgif.com-gif-to-sprite-converter_11
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 1
+        width: 587
+        height: 343
+      alignment: 9
+      pivot: {x: 0.51266223, y: 0.39887452}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4a0e23ba6b013a4f9d3252cd0a8928f
+      internalID: -1750068576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carroto-shoot-ezgif.com-gif-to-sprite-converter_12
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 0
+        width: 587
+        height: 343
+      alignment: 9
+      pivot: {x: 0.5154761, y: 0.41091326}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9b47b24c9516ee47b99fc14d37d55c4
+      internalID: 847126701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      carroto-shoot-ezgif.com-gif-to-sprite-converter_0: -438560093
+      carroto-shoot-ezgif.com-gif-to-sprite-converter_1: -2063293105
+      carroto-shoot-ezgif.com-gif-to-sprite-converter_10: -564175421
+      carroto-shoot-ezgif.com-gif-to-sprite-converter_11: -1750068576
+      carroto-shoot-ezgif.com-gif-to-sprite-converter_12: 847126701
+      carroto-shoot-ezgif.com-gif-to-sprite-converter_2: 273156805
+      carroto-shoot-ezgif.com-gif-to-sprite-converter_3: -446027103
+      carroto-shoot-ezgif.com-gif-to-sprite-converter_4: 1439988021
+      carroto-shoot-ezgif.com-gif-to-sprite-converter_5: -1715483433
+      carroto-shoot-ezgif.com-gif-to-sprite-converter_6: 1099221277
+      carroto-shoot-ezgif.com-gif-to-sprite-converter_7: -1479667139
+      carroto-shoot-ezgif.com-gif-to-sprite-converter_8: 630294636
+      carroto-shoot-ezgif.com-gif-to-sprite-converter_9: -1943065866
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

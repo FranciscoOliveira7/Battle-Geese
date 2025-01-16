@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85e2b07c612ac0b438c560b168b17e15, type: 3}
+  m_Name: RootBladeSword
+  m_EditorClassIdentifier: 
+  <Name>k__BackingField: Root Blade
+  Description: 'A Sword that grew from the cracks in the ground. Its blade is so
+    sturdy it could <color=#00ffffff>reflect</color> anything that comes its way
+
+    <color=green>+</color>
+    Damage
+
+    <color=yellow>/</color> Range
+
+    <color=red>-</color> Attack Speed'
+  <AnimatorController>k__BackingField: {fileID: 9100000, guid: 787420fffe57f6a419fbf25804c61587,
+    type: 2}
+  <WeaponSprite>k__BackingField: {fileID: 21300000, guid: 082f03f8da3af6f408ea03ef8cc59bac,
+    type: 3}
+  <WeaponPrefab>k__BackingField: {fileID: 7382557863142792377, guid: f2bf21d6257bd2f43a1824a9e279846a,
+    type: 3}
+  <ComponentDatas>k__BackingField:
+  - rid: 8663771412428488709
+  - rid: 8663771420253487104
+  - rid: 8663771529497280513
+  - rid: 7667425710311211008
+  - rid: 3635312283792703491
+  - rid: 7169934327808786433
+  references:
+    version: 2
+    RefIds:
+    - rid: 3635312283792703491
+      type: {class: SoundEffectData, ns: , asm: Assembly-CSharp}
+      data:
+        <AttackData>k__BackingField:
+          isSoundLooping: 0
+          HitSoundClipVolume: 1
+          HitSoundClipPitch: 0.5
+          HitSoundClip: {fileID: 8300000, guid: 0871fc2d833019849870156887b76a69,
+            type: 3}
+          HitSoundClipVolume2: 0
+          HitSoundClipPitch2: 1
+          HitSoundClip2: {fileID: 0}
+    - rid: 7169934327808786433
+      type: {class: ParryComponentData, ns: , asm: Assembly-CSharp}
+      data:
+        <AttackData>k__BackingField:
+          parrySound: {fileID: 8300000, guid: a8199d5e318d8ca4ebc20c506c3ceeca, type: 3}
+          parryEffect: {fileID: 7343223652254953911, guid: c2d2174da8644f54e927bad3b9df3fbe,
+            type: 3}
+    - rid: 7667425710311211008
+      type: {class: KnockbackComponentData, ns: , asm: Assembly-CSharp}
+      data:
+        <AttackData>k__BackingField:
+          <Amount>k__BackingField: 2
+    - rid: 8663771412428488709
+      type: {class: ActionHitboxData, ns: , asm: Assembly-CSharp}
+      data:
+        <AttackData>k__BackingField:
+          Debug: 1
+          <Hitbox>k__BackingField:
+            serializedVersion: 2
+            x: 0.16
+            y: -0.5
+            width: 0.89
+            height: 0.8
+        <DetectableLayers>k__BackingField:
+          serializedVersion: 2
+          m_Bits: 1408
+    - rid: 8663771420253487104
+      type: {class: DamageData, ns: , asm: Assembly-CSharp}
+      data:
+        <AttackData>k__BackingField:
+          <Amount>k__BackingField: 8
+    - rid: 8663771529497280513
+      type: {class: EffectData, ns: , asm: Assembly-CSharp}
+      data:
+        <AttackData>k__BackingField:
+          EffectObject: {fileID: 7555915200910795179, guid: 4a26c39e0a5f2aa41abf08803029be72,
+            type: 3}
+          shouldFlip: 0

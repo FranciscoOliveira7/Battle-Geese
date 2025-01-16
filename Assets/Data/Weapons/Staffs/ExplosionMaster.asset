@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85e2b07c612ac0b438c560b168b17e15, type: 3}
+  m_Name: ExplosionMaster
+  m_EditorClassIdentifier: 
+  <Name>k__BackingField: Explosion Master
+  Description: 'It holds so much power. Its feels amazing on your possession. Makes
+    you feel like screaming "<color=red>EXPLOSION!</color>" makes it more powerfull.
+
+    <color=green>++</color>
+    Damage
+
+    <color=red>--</color> Reload Speed
+
+    <color=#2c76b4>Max Ammo:
+    1</color>'
+  <AnimatorController>k__BackingField: {fileID: 9100000, guid: b057a1d5b26b93b4f99cddda9e5926fe,
+    type: 2}
+  <WeaponSprite>k__BackingField: {fileID: 21300000, guid: 6915380c3c19f6c47a290587e79c7f1d,
+    type: 3}
+  <WeaponPrefab>k__BackingField: {fileID: 7382557863142792377, guid: f30fb7c81f9cff342bc596f45782371b,
+    type: 3}
+  <ComponentDatas>k__BackingField:
+  - rid: 4358829291325358080
+  - rid: 4358829291325358081
+  - rid: 4358829315417440256
+  - rid: 7667426272391462913
+  - rid: 7169934147431432192
+  - rid: 7169934304907362304
+  references:
+    version: 2
+    RefIds:
+    - rid: 4358829291325358080
+      type: {class: InputHoldData, ns: , asm: Assembly-CSharp}
+      data: 
+    - rid: 4358829291325358081
+      type: {class: EffectData, ns: , asm: Assembly-CSharp}
+      data:
+        <AttackData>k__BackingField:
+          EffectObject: {fileID: 9019332819511743872, guid: f08b8640eb3312543ace7c80fe1249e3,
+            type: 3}
+          shouldFlip: 1
+    - rid: 4358829315417440256
+      type: {class: ProjectileSpawnerData, ns: , asm: Assembly-CSharp}
+      data:
+        <AttackData>k__BackingField:
+          <Projectile>k__BackingField: {fileID: 6360016598369960540, guid: b762e0e800423894d8ade21fd536e8eb,
+            type: 3}
+        <Speed>k__BackingField: 0
+        <Damage>k__BackingField: 50
+        <DetectableLayers>k__BackingField:
+          serializedVersion: 2
+          m_Bits: 4294967295
+    - rid: 7169934147431432192
+      type: {class: HammoData, ns: , asm: Assembly-CSharp}
+      data:
+        <AttackData>k__BackingField:
+          <MaxHammo>k__BackingField: 1
+          <TimeToRegen1>k__BackingField: 15
+    - rid: 7169934304907362304
+      type: {class: SoundEffectData, ns: , asm: Assembly-CSharp}
+      data:
+        <AttackData>k__BackingField:
+          isSoundLooping: 1
+          SoundVolume: 0.5
+          SoundPitch: 1
+          HitSoundClip: {fileID: 8300000, guid: dde8d2bf86460e443a658ae1d1bdb915,
+            type: 3}
+          SoundVolume2: 0
+          SoundPitch2: 1
+          HitSoundClip2: {fileID: 0}
+    - rid: 7667426272391462913
+      type: {class: AOEComponentData, ns: , asm: Assembly-CSharp}
+      data:
+        <AttackData>k__BackingField:
+          <AOE>k__BackingField: {fileID: 9154233676052454600, guid: bdbc371a28f690142990f56b7649a8c8,
+            type: 3}

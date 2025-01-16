@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85e2b07c612ac0b438c560b168b17e15, type: 3}
+  m_Name: CenouramanWeapon
+  m_EditorClassIdentifier: 
+  <Name>k__BackingField: why tf do I even have this
+  <AnimatorController>k__BackingField: {fileID: 9100000, guid: 701c2e1beb020974484263f8492ed5d1,
+    type: 2}
+  <WeaponSprite>k__BackingField: {fileID: 0}
+  <WeaponPrefab>k__BackingField: {fileID: 0}
+  <ComponentDatas>k__BackingField:
+  - rid: 8663771510183297037
+  - rid: 8663771554814361600
+  references:
+    version: 2
+    RefIds:
+    - rid: 8663771510183297037
+      type: {class: InputHoldData, ns: , asm: Assembly-CSharp}
+      data: 
+    - rid: 8663771554814361600
+      type: {class: ProjectileSpawnerData, ns: , asm: Assembly-CSharp}
+      data:
+        <AttackData>k__BackingField:
+          <Projectile>k__BackingField: {fileID: 6360016598369960540, guid: 8f0cd8ac6756a0241b9c39be0e62d0a9,
+            type: 3}
+        <Speed>k__BackingField: 15
+        <Damage>k__BackingField: 50
+        <DetectableLayers>k__BackingField:
+          serializedVersion: 2
+          m_Bits: 1032

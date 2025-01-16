@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8406de416e4e34b428f3bbe6887244c3, type: 3}
+  m_Name: healthPotionEffect20HP
+  m_EditorClassIdentifier: 
+  healAmount: 50
+  visualEffect: {fileID: 1191556546943682907, guid: ff2e3f861d346ee44ad2461e3f93fdd3,
+    type: 3}
